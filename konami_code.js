@@ -22,8 +22,8 @@ function init() {
     
       if (i === codes.length)  {
         e.stopPropagation()
-        alert("Hurray!");
-        i = 0
+        alert("Hurray!")
+        i = 0;
       }
     }
     else {

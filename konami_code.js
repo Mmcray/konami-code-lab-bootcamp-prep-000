@@ -24,11 +24,11 @@ function init() {
         alert("Hurray!");
         i = 0
       }
-    
+    }
     else {
       i = 0;
     }
-    }
+    
 
  });
 }

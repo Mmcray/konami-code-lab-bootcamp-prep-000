@@ -18,6 +18,8 @@ function init() {
  
     if (codes[i] === e.key) {
       i++;
+      
+    
       if (i = codes.length)  {
         alert("Hurray!");
         i = 0

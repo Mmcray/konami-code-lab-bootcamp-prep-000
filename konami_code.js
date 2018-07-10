@@ -21,6 +21,7 @@ function init() {
       
     
       if (i === codes.length)  {
+        e.stopPropogation()
         alert("Hurray!");
         i = 0
       }

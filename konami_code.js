@@ -21,7 +21,7 @@ function init() {
       
     
       if (i === codes.length)  {
-        e.stopPropogation()
+        e.stopPropagation()
         alert("Hurray!");
         i = 0
       }

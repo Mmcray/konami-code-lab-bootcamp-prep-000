@@ -18,9 +18,13 @@ function init() {
   for (i; i < codes.length; i++) {
     if (codes[i] === e.key) {
       i++;
+      if (i = codes.length)  {
+        alert("Hurray!");
+        i = 0
+      }
     }
     else {
-      alert()
+      i = 0;
     }
   }
 

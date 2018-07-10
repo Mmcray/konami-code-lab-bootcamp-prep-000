@@ -20,7 +20,7 @@ function init() {
       i++;
       
     
-      if (i = codes.length)  {
+      if (i === codes.length)  {
         alert("Hurray!");
         i = 0
       }

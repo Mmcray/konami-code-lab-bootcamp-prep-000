@@ -19,8 +19,8 @@ function init() {
     if (codes[i] === e.key, codes[i] < codes.length) {
       i++;
       
-    }
-      else if (i = codes.length)  {
+    
+      if (i = codes.length)  {
         alert("Hurray!");
         i = 0
       }
@@ -28,7 +28,7 @@ function init() {
     else {
       i = 0;
     }
-  
+    }
 
  });
 }
